@@ -216,3 +216,57 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project specific
+data/processed/
+data/processed/*
+!data/processed/.gitkeep
+
+yolo_results/
+runs/
+dataset/
+*.pt
+*.pth
+*.onnx
+*.weights
+*.cfg
+
+# IDE specific (если нужно)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Notebooks (если используете)
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+logs/
+*.log
+
+# Test outputs
+tests/__pycache__/
+tests/.pytest_cache/
+
+# YOLO specific
+yolov8n.pt
+yolov8s.pt
+yolov8m.pt
+yolov8l.pt
+yolov8x.pt
+
+# Training outputs
+runs/
+train_yolo.py
